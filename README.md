@@ -147,7 +147,7 @@ where rank = 1
 ![](https://github.com/edwinonine/Deforestation-Analysis-across-the-globe/blob/main/question%205.PNG)
 
 
-
+## ACTION AND RECOMMENDATION
 
 
 
