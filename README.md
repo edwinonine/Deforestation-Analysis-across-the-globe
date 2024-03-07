@@ -89,7 +89,7 @@ select count(distinct country_name) as countries_not_involed_in_deforestation fr
 where forest_area_sqkm != 0;
 ```
 
-
+![](https://github.com/edwinonine/Deforestation-Analysis-across-the-globe/blob/main/question%201.PNG)
 
 
 
