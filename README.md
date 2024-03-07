@@ -131,7 +131,20 @@ order by sum(forest_area_sqkm) desc;
 ![](https://github.com/edwinonine/Deforestation-Analysis-across-the-globe/blob/main/question%204.PNG)
 
 
-
+from the analaysis, insight obtained depicts that brazil from latin america and carribbean has the higest forest_area_sqmi with a 
+figure 5467050 sqmi, followed by canada from the region of North America with a figure 3482730sqmi, china  from East Asia and pacific
+came third with a figure of 2098635sqmi, congo democratic republic from sub saharan Africa has a figure of 1603630sqmi, india
+from south Asia has a figure of 708604sqmi, Iran, Islamic Rep. from the Middle East & North Africa with a figure 106919.805sqmi, 
+and Russian Federation from Russian Federation figure 8151356sqmi.
+```
+with eddy_cte as
+(select   distinct Forest_Area.country_name,region.region, forest_area_sqkm, 
+row_number () over(partition by region.region order by forest_area_sqkm desc) as rank from region  join forest_area
+on region.country_code=forest_area.country_code)
+select * from eddy_cte
+where rank = 1
+```
+![](https://github.com/edwinonine/Deforestation-Analysis-across-the-globe/blob/main/question%205.PNG)
 
 
 
