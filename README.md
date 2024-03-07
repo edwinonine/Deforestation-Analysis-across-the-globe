@@ -1,5 +1,5 @@
 # Deforestation-Analysis-across-the-globe
-
+![](https://github.com/edwinonine/Deforestation-Analysis-across-the-globe/blob/main/irina-iriser-2Y4dE8sdhlc-unsplash.jpg)
 
 ## DOCUMENTATION ON FINAL PROJECT ON DEFORESTATION ANALYSIS USING SQL
 
