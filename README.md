@@ -82,6 +82,14 @@ Question 4: Determine the total forest area in square km for countries in the 'h
 Question 5: Show countries from each region(continent) having the highest total forest areas. 
 
 
+From the analysis in answering question one, from analysis using the forest_area dataset, we had only 524 countries only 208 countries are involded in deforestation, 
+while 316 countries are not involded in deforestation.
+```
+select count(distinct country_name) as countries_not_involed_in_deforestation from Forest_Area
+where forest_area_sqkm != 0;
+```
+
+
 
 
 
