@@ -180,7 +180,11 @@ where rank = 1
    from south Asia has a figure of 708604sqmi, Iran, Islamic Rep. from the Middle East & North Africa with a figure 106919.805sqmi, and Russian Federation from Russian Federation figure 8151356sqmi.
 
 ## RECOMMENDATION
-1. wdeforestation
+1. Deforestation only took place in 208 nations, leaving out 316 nations. countries should be encourage to implement mechanism that generates economic value from forests, such as ecotourism, carbon credits, 
+   or Sustainable timber harvesting. these approaches can incentivize forest conservation
+2. Promote tree planting initiatives to restore degraded areas and expand forest cover.
+3. Provide financial incentives for sustainable forestry, agroforestry, and reforestation project.
+4. Encourage private sector involvement in sustainable supply chains
 
 
 
