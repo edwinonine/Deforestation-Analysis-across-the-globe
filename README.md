@@ -50,6 +50,7 @@ In ensuring quality and reliability of the dataset. Columns were checked for dup
 select * from Forest_Area
  where forest_area_sqkm is null;
 ```
+![](https://github.com/edwinonine/Deforestation-Analysis-across-the-globe/blob/main/dirty_forest_areaPNG.PNG)
 
 
 ```update Forest_Area
@@ -58,15 +59,21 @@ else forest_area_sqkm
 end;
 ```
 
+![](https://github.com/edwinonine/Deforestation-Analysis-across-the-globe/blob/main/cleaned_forest_areatozero.PNG)
+ 
 ```update Forest_Area
 set forest_area_sqkm = round(forest_area_sqkm,3);
 ```
-
+![](https://github.com/edwinonine/Deforestation-Analysis-across-the-globe/blob/main/forest_area%20_decimal_dirty.PNG)
+![](https://github.com/edwinonine/Deforestation-Analysis-across-the-globe/blob/main/forest_area_decimalcleaned.PNG)
 ```update Land_Area
 set total_area_sq_mi = case when total_area_sq_mi is null then 0
 else total_area_sq_mi
 end;
 ```
+
+ ![](https://github.com/edwinonine/Deforestation-Analysis-across-the-globe/blob/main/dirty_landArea_NullPNG.PNG) 
+  ![](https://github.com/edwinonine/Deforestation-Analysis-across-the-globe/blob/main/cleaned_landarea0.PNG)
 
 ##  ANALYSIS THE DATASET
 In an attempt to tackle the issue of deforestation question, we delved into exploring the datasets provided 'forest_Area.csv','Land_Area.csv', and 'Region.csv; files. the following questions where asked
