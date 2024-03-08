@@ -50,6 +50,8 @@ In ensuring quality and reliability of the dataset. Columns were checked for dup
 select * from Forest_Area
  where forest_area_sqkm is null;
 ```
+   Before
+   
 ![](https://github.com/edwinonine/Deforestation-Analysis-across-the-globe/blob/main/dirty_forest_areaPNG.PNG)
 
 
@@ -58,22 +60,34 @@ set forest_area_sqkm = case when forest_area_sqkm is null then 0
 else forest_area_sqkm
 end;
 ```
-
+  After
+  
 ![](https://github.com/edwinonine/Deforestation-Analysis-across-the-globe/blob/main/cleaned_forest_areatozero.PNG)
  
 ```update Forest_Area
 set forest_area_sqkm = round(forest_area_sqkm,3);
 ```
+  Before
+  
 ![](https://github.com/edwinonine/Deforestation-Analysis-across-the-globe/blob/main/forest_area%20_decimal_dirty.PNG)
+
+  After
+  
 ![](https://github.com/edwinonine/Deforestation-Analysis-across-the-globe/blob/main/forest_area_decimalcleaned.PNG)
+
 ```update Land_Area
 set total_area_sq_mi = case when total_area_sq_mi is null then 0
 else total_area_sq_mi
 end;
 ```
 
+ Before
+    
  ![](https://github.com/edwinonine/Deforestation-Analysis-across-the-globe/blob/main/dirty_landArea_NullPNG.PNG) 
-  ![](https://github.com/edwinonine/Deforestation-Analysis-across-the-globe/blob/main/cleaned_landarea0.PNG)
+
+   After
+   
+   ![](https://github.com/edwinonine/Deforestation-Analysis-across-the-globe/blob/main/cleaned_landarea0.PNG)
 
 ##  ANALYSIS THE DATASET
 In an attempt to tackle the issue of deforestation question, we delved into exploring the datasets provided 'forest_Area.csv','Land_Area.csv', and 'Region.csv; files. the following questions where asked
@@ -154,7 +168,19 @@ where rank = 1
 ![](https://github.com/edwinonine/Deforestation-Analysis-across-the-globe/blob/main/question%205.PNG)
 
 
-## ACTION AND RECOMMENDATION
+## INSiGHT 
+1. The total number of countries involved in deforestion are 524 in total, only 208 countries are involded in deforestation, 
+   while 316 countries are not involded in deforestation.
+2. From the analysis only 26 countries from the group income having total area ranging from 75,000 to 150,000 square meter, with upper middle income having six (6) countries, lower income group having three  
+   (3), lower middle six (6) and the upper middle group having five (5) income group.
+3. From the analysis, after comparing we observed that the upper middle income group has the highest  average total area with 383023.57781283 sqmi, while the high income group had a total of 
+   182512.633844445 sqmi, the lower middle income had 161929.039350669 sqmi and the low income had a total of 161626.848239651 sqmi
+4. From the analaysis, insight obtained depicts that brazil from latin america and carribbean has the higest forest_area_sqmi with a figure 5467050 sqmi, followed by canada from the region of North America 
+   with a figure 3482730sqmi, china  from East Asia and pacific came third with a figure of 2098635sqmi, congo democratic republic from sub saharan Africa has a figure of 1603630sqmi, india
+   from south Asia has a figure of 708604sqmi, Iran, Islamic Rep. from the Middle East & North Africa with a figure 106919.805sqmi, and Russian Federation from Russian Federation figure 8151356sqmi.
+
+## RECOMMENDATION
+1. world 
 
 
 
