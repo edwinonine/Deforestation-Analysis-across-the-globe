@@ -168,7 +168,7 @@ where rank = 1
 ![](https://github.com/edwinonine/Deforestation-Analysis-across-the-globe/blob/main/question%205.PNG)
 
 
-## INSiGHT 
+## INSIGHT 
 1. The total number of countries involved in deforestion are 524 in total, only 208 countries are involded in deforestation, 
    while 316 countries are not involded in deforestation.
 2. From the analysis only 26 countries from the group income having total area ranging from 75,000 to 150,000 square meter, with upper middle income having six (6) countries, lower income group having three  
@@ -180,7 +180,7 @@ where rank = 1
    from south Asia has a figure of 708604sqmi, Iran, Islamic Rep. from the Middle East & North Africa with a figure 106919.805sqmi, and Russian Federation from Russian Federation figure 8151356sqmi.
 
 ## RECOMMENDATION
-1. world 
+1. wdeforestation
 
 
 
