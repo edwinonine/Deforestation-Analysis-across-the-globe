@@ -105,7 +105,7 @@ Question 4: Determine the total forest area in square km for countries in the 'h
 
 Question 5: Show countries from each region(continent) having the highest total forest areas. 
 
-
+## Question 1
 In answering question one, from analysis using the forest_area dataset, we had only 524 countries only 208 countries are involded in deforestation, 
 while 316 countries are not involded in deforestation.
 ```
@@ -116,9 +116,10 @@ where forest_area_sqkm != 0;
 ![](https://github.com/edwinonine/Deforestation-Analysis-across-the-globe/blob/main/question%201.PNG)
 
 
-In answering question two, from the analysis only 26 countries from the group income having total area ranging from 75,000 to 150,000 square meter, with
-upper middle income having six countries, lower income group having three, lower middle six and the upper middle group having five
-income group. 
+## Question 2
+In answering question two, from the analysis only 19 countries from the group income having total area ranging from 75,000 to 150,000 square meter, with
+upper middle income group having three (3) countries, lowe income group having three (3), lower middle income group four (4), the high income group had nine (9) and the upper middle income group having three
+(3). 
 ```
 select  distinct region.country_name,income_group from Region full join Land_Area on 
 Region.country_code=Land_Area.country_code
@@ -128,6 +129,7 @@ where total_area_sq_mi between 75000 and 150000;
 ![](https://github.com/edwinonine/Deforestation-Analysis-across-the-globe/blob/main/question%202.PNG)
 
 
+## Question 3
 from the analysis, after comparing we observed that the upper middle income group has the highest  average total area with 383023.57781283sqmi, while 
 while the high income group had a total of 182512.633844445sqmi, the lower miidle income had 161929.039350669sqmi and the low income had 
 a total of 161626.848239651sqmi
@@ -141,6 +143,7 @@ order by  AVG(total_area_sq_mi) desc;
 ![](https://github.com/edwinonine/Deforestation-Analysis-across-the-globe/blob/main/question%203.PNG)
 
 
+## Question 4
 from the analysis, after comparing we deduced that the upper middle income group has the highest
 sum foresttotal area with 537631841.151, while 
 while the high income group had a total of 280145166.716sqmi, the lower miidle income had 280145166.716sqmi and the low income had 
@@ -155,6 +158,7 @@ order by sum(forest_area_sqkm) desc;
 ![](https://github.com/edwinonine/Deforestation-Analysis-across-the-globe/blob/main/question%204.PNG)
 
 
+## Question 5
 from the analaysis, insight obtained depicts that brazil from latin america and carribbean has the higest forest_area_sqmi with a 
 figure 5467050 sqmi, followed by canada from the region of North America with a figure 3482730sqmi, china  from East Asia and pacific
 came third with a figure of 2098635sqmi, congo democratic republic from sub saharan Africa has a figure of 1603630sqmi, india
