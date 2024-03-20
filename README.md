@@ -9,13 +9,13 @@ This is an sql project on deforestation. The project is carried out to review, a
 and help gain deeper understanding and make data driven decision.
 
 ## PROBLEM STATEMENT
-deforestation is a critical environment issue that has a far-reaching consequences for ecosystem, climate, and biodiverty. 
+Deforestation is a critical environment issue that has a far-reaching consequences for ecosystem, climate, and biodiverty. 
 understanding the patterns, drivers, and impacts of deforestation is essential for informed decision-making and effective conservation efforts.
 we aim to identify trends, contributing factors and potential mitigation strategy.
 
 ## RESEARCH QUESTION
 
-we aimed to find solutions to the issues facing deforestation by answering the following questions:
+We aimed to find solutions to the issues facing deforestation by answering the following questions:
 
 question 1. What are the total number of countries involved in deforestation? 
 
@@ -33,7 +33,7 @@ In analyzing the dataset, I applied certain skills in analyzing and deriving ins
 These skills include carrying out windows function to create a frame in other to group based on category, common table expression (cte) the dataset, data cleaning/transformation.
 
 ## DATA SOURCE
-the dataset set used for this analysis are 'forest_Area.csv','Land_Area.csv', and 'Region.csv; files containing details of deforestation across the globe across the world/globe between
+The dataset set used for this analysis are 'forest_Area.csv','Land_Area.csv', and 'Region.csv; files containing details of deforestation across the globe across the world/globe between
 1990 to 2016.
 
 ## TOOLS 
@@ -130,7 +130,7 @@ where total_area_sq_mi between 75000 and 150000;
 
 
 ## Question 3
-from the analysis, after comparing we observed that the upper middle income group has the highest  average total area with 383023.57781283sqmi, while 
+From the analysis, after comparing we observed that the upper middle income group has the highest  average total area with 383023.57781283sqmi, while 
 while the high income group had a total of 182512.633844445sqmi, the lower miidle income had 161929.039350669sqmi and the low income had 
 a total of 161626.848239651sqmi
 ```
@@ -144,7 +144,7 @@ order by  AVG(total_area_sq_mi) desc;
 
 
 ## Question 4
-from the analysis, after comparing we deduced that the upper middle income group has the highest
+From the analysis, after comparing we deduced that the upper middle income group has the highest
 sum foresttotal area with 537631841.151, while 
 while the high income group had a total of 280145166.716sqmi, the lower miidle income had 280145166.716sqmi and the low income had 
 a total of 280145166.716 sqmi 
@@ -159,7 +159,7 @@ order by sum(forest_area_sqkm) desc;
 
 
 ## Question 5
-from the analaysis, insight obtained depicts that brazil from latin america and carribbean has the higest forest_area_sqmi with a 
+From the analaysis, insight obtained depicts that brazil from latin america and carribbean has the higest forest_area_sqmi with a 
 figure 5467050 sqmi, followed by canada from the region of North America with a figure 3482730sqmi, china  from East Asia and pacific
 came third with a figure of 2098635sqmi, congo democratic republic from sub saharan Africa has a figure of 1603630sqmi, india
 from south Asia has a figure of 708604sqmi, Iran, Islamic Rep. from the Middle East & North Africa with a figure 106919.805sqmi, 
