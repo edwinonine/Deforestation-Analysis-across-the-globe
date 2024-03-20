@@ -118,7 +118,7 @@ where forest_area_sqkm != 0;
 
 ## Question 2
 In answering question two, from the analysis only 19 countries from the group income having total area ranging from 75,000 to 150,000 square meter, with
-upper middle income group having three (3) countries, lowe income group having three (3), lower middle income group four (4), the high income group had nine (9) and the upper middle income group having three
+upper middle income group having three (3) countries, low income group having three (3), lower middle income group four (4), the high income group had nine (9) and the upper middle income group having three
 (3). 
 ```
 select  distinct region.country_name,income_group from Region full join Land_Area on 
