@@ -55,7 +55,8 @@ select * from Forest_Area
 ![](https://github.com/edwinonine/Deforestation-Analysis-across-the-globe/blob/main/dirty_forest_areaPNG.PNG)
 
 
-```update Forest_Area
+```
+update Forest_Area
 set forest_area_sqkm = case when forest_area_sqkm is null then 0
 else forest_area_sqkm
 end;
@@ -64,7 +65,8 @@ end;
   
 ![](https://github.com/edwinonine/Deforestation-Analysis-across-the-globe/blob/main/cleaned_forest_areatozero.PNG)
  
-```update Forest_Area
+```
+update Forest_Area
 set forest_area_sqkm = round(forest_area_sqkm,3);
 ```
   Before
@@ -75,7 +77,8 @@ set forest_area_sqkm = round(forest_area_sqkm,3);
   
 ![](https://github.com/edwinonine/Deforestation-Analysis-across-the-globe/blob/main/forest_area_decimalcleaned.PNG)
 
-```update Land_Area
+```
+update Land_Area
 set total_area_sq_mi = case when total_area_sq_mi is null then 0
 else total_area_sq_mi
 end;
