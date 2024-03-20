@@ -27,14 +27,14 @@ Question 4: Determine the total forest area in square km for countries in the 'h
 
 Question 5: Show countries from each region(continent) having the highest total forest areas. 
 
-## SKILL DEMONSTRATED:
+## SKILL DEMONSTRATED
 
 In analyzing the dataset, I applied certain skills in analyzing and deriving insight. 
 These skills include carrying out windows function to create a frame in other to group based on category, common table expression (cte) the dataset, data cleaning/transformation.
 
 ## DATA SOURCE
 the dataset set used for this analysis are 'forest_Area.csv','Land_Area.csv', and 'Region.csv; files containing details of deforestation across the globe across the world/globe between
-2019 to 2023.
+1990 to 2016.
 
 ## TOOLS 
 1. sql server, used for analysis, data cleaning and reporting.
